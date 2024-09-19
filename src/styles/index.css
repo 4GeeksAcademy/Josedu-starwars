@@ -1,3 +1,41 @@
 /* 
     General Styles
 */
+.navbar-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    width: 100%;
+}
+
+.navbar {
+    
+    height: 80px; 
+}
+
+.navbar-brand img {
+    height: 50px; 
+    margin-right: 20px; 
+  }
+
+  .btn-favorite {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.favorite-icon {
+    font-size: 24px;
+    color: grey;
+    transition: color 0.3s ease;
+}
+
+.favorite-icon:hover {
+    color: red;
+}
+
+.favorite-icon.active {
+    color: red;
+}
