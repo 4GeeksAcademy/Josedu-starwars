@@ -26,6 +26,7 @@ export const Home = () => {
         actions.toggleFavorite(item);
     };
 
+    // solucion encontrada en https://stackoverflow.com/questions/34097560/react-js-replace-img-src-onerror
     const imageError = (e) => {
         e.target.src = "https://starwars-visualguide.com/assets/img/placeholder.jpg";  
     };
